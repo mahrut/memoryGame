@@ -1,0 +1,235 @@
+* {
+padding: 0%;
+margin: 0%;
+}
+.header_wrapper {
+    background-color:black;
+    padding: 10px;
+}
+.header_wrapper .header_links_wrapper ul li {
+    display: inline-block;
+    padding: 14px 0 9px;
+    height: 25px;
+    opacity: 0.8;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.internal_wrapper {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header_wrapper ul {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+header ul li img {
+    width: 18px;
+}
+.footer_wrapper {
+    background-color:gainsboro;
+    color: black;
+    font-size: 15px;
+}
+.upper_text_container {
+    border-bottom: 1px solid #d2d2d7;
+  color: #868686;
+  padding: 17px 0 20px;
+}
+.upper_text_container a {
+   text-decoration: underline; 
+  color: #515154;
+}
+.footer_lins_wrapper {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer_wrapper ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer_wrapper ul li {
+    padding: 5px 0;
+    font-size: 11px;
+}
+.footer_lins_wrapper a:hover {
+    text-decoration: underline;
+}
+.footer_lins_wrapper a {
+    color: #515124;
+}
+.footer_country {
+    display: inline-block;
+}
+.flag_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer_county_name {
+    display: inline-block;
+    vertical-align: sub;
+}
+.main_highlight_wrapper {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.model-1 {
+    font-size: .85em;
+}
+.product_title {
+    font-weight: 700;
+    font-size: 56px;
+}
+.brief_description {
+    font-size: 28px;
+}
+.lins_wrapper {
+    padding: 15px 0;
+}
+.lins_wrapper ul {
+    list-style: none;
+}
+.lins_wrapper ul li {
+   display: inline-block;
+   padding-right: 20px;
+}
+.lins_wrapper ul li a {
+    color: #06c;
+    text-decoration: none;
+}
+.lins_wrapper ul li a:hover {
+    color: #000;
+}
+.lins_wrapper ul li a::after {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    content: \f105;
+    padding-left: 10px;
+}
+.second_highlight_wrapper {
+    background-image: url("images-used/home/iphone11-pro-bg.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 65px 20px;
+   color: #fff;
+}
+.third_highlight_wrapper {
+    background-image: url("images-used/home/iphone11-bg.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 65px 20px;
+   color:black;
+}
+.title-wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700; 
+    font-size: 56px; 
+}
+.internal_wrapper {
+    text-align: center;
+    width: 100%;
+}
+.watch-head {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.description-wrapperr {
+    font-weight: 500;
+    font-size: 30px;
+}
+.watchh-wrapper {
+    display: inline-block;
+}
+.watch-wrapper {
+    display: inline-block;
+}
+.external-wrapper {
+    background-image: url("images-used/home/watch-series-5.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 0;
+   width: 50%;
+}
+.fourth_highlight_wrapper {
+    display: flex;
+}
+.only_watch {
+    background-image: url("images-used/home/watch-series-5.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 0;
+   width: 50%;
+}
+.title {
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.five_highlight_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+} 
+.phone-wrapper {
+    background-image: url("images-used/home/air-pods.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 0;
+   width: 50%;
+   margin-right: 10px;
+}
+.pc {
+    background-image: url("images-used/home/new-ipad.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 0;
+   width: 50%;
+   margin-left: 10px; 
+}
+.phone-wrapper {
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.phone_card {
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
